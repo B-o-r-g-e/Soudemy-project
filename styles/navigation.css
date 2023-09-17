@@ -1,0 +1,91 @@
+.navigation_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 40px 0;
+}
+
+.logo {
+    margin: 0;
+    width: 200px;
+    float: left;
+ }
+
+.logo_content {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+}
+
+.navigation {
+    display: flex;
+    width: 800px;
+    flex-direction: row;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin: 0 40px 0 0;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 40px 0 0;
+}
+
+.product{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 10px 0 0;
+}
+
+.icon {
+    height: 10px;
+}
+
+a {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 40px 0 0;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: #282828;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #282828;
+}
+
+a:active {
+    color: #525252;
+}
+
+.right_nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+}
+
+.sign_in {
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 40px 0 0;
+}
+
+.start_free {
+    background-color: #4360F6;
+    color: white;
+    padding: 15px 25px;
+    font-weight: 600;
+}

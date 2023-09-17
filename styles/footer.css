@@ -1,0 +1,132 @@
+.footer {
+    margin-top: 100px;
+   display: flex;
+    flex-direction: column;
+}
+
+.footer-top {
+    background: url("../media/footer-image.png");
+    height: 616px;
+    object-fit: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.set-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 612px;
+    height: 273px;
+    border-radius: 12px;
+    background-color: #578EE1;
+    margin-left: 108px;
+}
+
+.below {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.join {
+    color: white;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 17px;
+    margin: 0 0 22px 0;
+}
+
+.set-growth {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 20px;
+    color: white;
+    width: 250px;
+    margin: 0 0 22px 0;
+}
+
+.search-subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar {
+    display: flex;
+    width: 350px;
+    height: 62px;
+    padding: 0 0 0 21px;
+    color: #858585;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 17px;
+    border: none;
+}
+
+.subscribe {
+    width: 124px;
+    height: 62px;
+    background-color: #EB6856;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 17px;
+    color: white;
+    border: none;
+}
+
+.footer-bottom {
+    display: flex;
+    height: 384px;
+    background-color: #1B1C31;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.fb-first-part {
+    display: flex;
+    flex-direction: column;
+    margin-left: 148px;
+}
+
+.fp-header {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 24px;
+    margin: 0 0 24px 0;
+}
+
+.fp-sub {
+    font-size: 16px;
+    font-weight: 400;
+    color: #858585;
+    width: 370px;
+    margin: 0;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: center;
+    margin-left: 125px;
+    margin-right: 100px;
+}
+
+.fb-second-part {
+    display: flex;
+    flex-direction: column;
+    margin: 0 83px 0 0;
+}
+
+.sc-header {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 20px;
+    margin: 0 0 21px 0;
+}
+
+.sc-subs {
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 20px;
+    margin: 0 0 21px 0;
+    white-space: nowrap;
+}
